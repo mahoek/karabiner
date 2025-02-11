@@ -61,43 +61,25 @@ const rules: KarabinerRules[] = [
     ),
     // b = "B"rowse
     b: {
-      t: open("https://twitter.com"),
-      // Quarterly "P"lan
-      p: open("https://mxstbr.com/cal"),
-      y: open("https://news.ycombinator.com"),
-      f: open("https://facebook.com"),
-      r: open("https://reddit.com"),
-      h: open("https://hashnode.com/draft"),
+      f: open("https://x.com"),
+      o: open("https://news.ycombinator.com"),
+      s: open("https://reddit.com"),
     },
     // o = "Open" applications
-    o: {
+    semicolon: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Zed"),
-      d: app("Discord"),
-      s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
-      // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
+      t: app("Google Chrome"),
+      c: app("Cursor"),
+      g: app("Discord"),
+      d: app("Slack"),
+      f: app("Ghostty"),
       z: app("zoom.us"),
-      // "M"arkdown (Reflect.app)
-      m: app("Reflect"),
-      r: app("Reflect"),
-      f: app("Finder"),
+      e: app("Finder"),
       // "i"Message
-      i: app("Texts"),
-      p: app("Spotify"),
-      a: app("iA Presenter"),
+      m: app("Messages"),
+      r: app("Spotify"),
       // "W"hatsApp has been replaced by Texts
-      w: open("Texts"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
-      ),
+      w: open("WhatsApp"),
     },
 
     // TODO: This doesn't quite work yet.
